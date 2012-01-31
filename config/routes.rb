@@ -1,4 +1,6 @@
 Kazokuapp::Application.routes.draw do
+  resources :mails
+
   resources :photos
 
   resources :users
